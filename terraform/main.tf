@@ -34,6 +34,7 @@ resource "google_compute_instance" "terraform_website" {
       #!/bin/bash
       sudo apt update
       sudo apt -y install apache2
+      sudo apt -y install git
       sudo systemctl start apache2
       git clone https://github.com/kurtsprague/terraform_website.git
       sudo cp ./terraform_website/website_resources/* /var/www/html/
