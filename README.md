@@ -1,5 +1,21 @@
-This repo has the basics for creating a basic website using Terraform. 
+# Terraform Website
 
-In the terraform folder, you will find the basic outline of creating a small GCP VM.
-In the website_resources folder, you will find a basic HTML/CSS website. I used my mini-portfolio as an example!
-Feel free to edit the main.tf file to point to your website's git repo. Make sure it can run on an Apache2 web server.
+This repository contains the source code and configuration files for deploying a static website on GCP using Terraform. It automates the creation and management of the necessary GCP infrastructure, ensuring a streamlined and reproducible deployment process.
+
+## Getting Started
+
+This repo assumes you have:
+
+- A GCP account setup
+- A GCP project created for this website
+- A service account created for Terraform to run properly.
+- Terraform installed
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kurtsprague/terraform_website.git
+
+2. (Optional) If you have your own static website, replace line 39 and 40 of main.tf with the appropriate steps to clone your website details. The current setup deploys my mini-portfolio as an example.
