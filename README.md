@@ -1,3 +1,5 @@
+# Caution
+This is a proof of concept in standing up a website, and the web security aspect is still under development. Personally, I have had to shut down the VMs a short while after creating them due to bad actors sending the apache2 server HTML injection attacks. Stay vigilant!
 # Terraform Website
 
 This repository contains the source code and configuration files for deploying a static website on GCP using Terraform. It automates the creation and management of the necessary GCP infrastructure, ensuring a streamlined and reproducible deployment process.
